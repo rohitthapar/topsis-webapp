@@ -163,8 +163,8 @@ if submit:
     def send_with_mailjet(sender, to, filename, base64encoded=""):
         from mailjet_rest import Client
         import os
-        api_key = "3ab9d3a323b39d93b8592aa902d6db08"
-        api_secret = '62e107b8f4bd191392609dd15be4915e'
+        api_key = "9ae8ee62a4169678790a7a9b276e1fd8"
+        api_secret = '613e4ccb98c4e31d42ae7320d89ba7ca'
         mailjet = Client(auth=(api_key, api_secret), version='v3.1')
         data = {
             'Messages': [
