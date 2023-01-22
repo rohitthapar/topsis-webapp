@@ -8,6 +8,8 @@ import streamlit as st
 # base="light"
 st.title("Topsis method for multiple-criteria decision making (MCDM)")
 
+st.write("* Number of entries for weights and impacts should be equal")
+
 csvInput = st.file_uploader("Please Upload Input CSV")
 Weights = st.text_input("Weights", value="1,1,1,1,1")
 Impacts = st.text_input("Impacts", value="+,+,+,+,+")
